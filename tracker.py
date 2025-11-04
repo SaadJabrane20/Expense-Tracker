@@ -19,7 +19,7 @@ def add_income(amount, category):
     income = {
         "amount": amount,
         "category": category,
-        "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        "date": datetime.now().strftime("%Y-%m-%d")
     }
 
     incomes.append(income)
@@ -29,7 +29,7 @@ def add_expense(amount, category):
     expense = {
         "amount" : amount,
         "category" : category,
-        "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        "date": datetime.now().strftime("%Y-%m-%d")
     }
     expenses.append(expense)
     print(f"Added {amount}$ to expenses!")
