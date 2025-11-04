@@ -8,15 +8,15 @@ A simple **Expense Tracker** application built in Python that allows users to ma
 - Add, view, and delete income and expenses
 - Categorize transactions (e.g., Food, Transport, Entertainment)
 - View current balance and total expenses
-- Store data locally using **JSON** or **CSV** file
+- Store data locally using **XLSX** file
 - Command-line interface for simplicity and quick usage
 
 ---
 
 ## Tech Stack
 - Python 3.x
-- JSON / CSV file handling
-- Standard Python libraries (`datetime`, `json`, etc.)
+- XLSX file handling
+- Standard Python libraries (`datetime`, `pandas`, etc.)
 
 ---
 
